@@ -148,3 +148,5 @@ bindsym Mod1+e layout default
 
 # toggle tiling / floating
 bindsym Mod1+Shift+space floating toggle 
+
+feh --bg-scale /home/kft/pictures/16593.jpg
