@@ -61,7 +61,7 @@ status_command i3status
 
 # Restart i3 inplace
 bindsym Mod1+Shift+r restart
-bindsym Mod1+Shift+e i3lock
+bindsym Mod1+Shift+e exec i3lock
 
 exec --no-startup-id setxkbmap -layout se -variant mac
 exec --no-startup-id xrandr -s 2560x1600
