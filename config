@@ -147,6 +147,6 @@ bindsym Mod1+w layout tabbed
 bindsym Mod1+e layout default
 
 # toggle tiling / floating
-bindsym Mod1+Shift+space floating toggle 
+# bindsym Mod1+Shift+space floating toggle 
 
-feh --bg-scale /home/kft/pictures/16593.jpg
+exec --no-startup-id feh --bg-fill /home/kft/pictures/16593.jpg
