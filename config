@@ -32,7 +32,8 @@ font pango:Terminus 16x
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec /usr/local/bin/xterm -fg green -bg black -fa 'Monospace' -fs 16
+# bindsym $mod+Return exec /usr/local/bin/xterm -fg green -bg black -fa 'Monospace' -fs 16
+bindsym $mod+Return exec /usr/local/bin/terminator
 
 # kill focused window
 bindsym $mod+Shift+q kill
